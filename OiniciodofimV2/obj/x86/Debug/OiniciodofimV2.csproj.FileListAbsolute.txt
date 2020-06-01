@@ -1,0 +1,8 @@
+c:\users\pmrecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.JanelaArma.resources
+c:\users\pmrecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.Window.resources
+c:\users\pmrecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.Properties.Resources.resources
+c:\users\pmrecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.csproj.GenerateResource.Cache
+c:\users\pmrecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\bin\Debug\OiniciodofimV2.exe
+c:\users\pmrecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\bin\Debug\OiniciodofimV2.pdb
+c:\users\pmrecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.exe
+c:\users\pmrecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.pdb
