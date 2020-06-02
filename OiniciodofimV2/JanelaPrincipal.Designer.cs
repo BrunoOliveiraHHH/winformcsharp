@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Window));
             this.title = new System.Windows.Forms.Label();
             this.Subtitle = new System.Windows.Forms.Label();
-            this.btn_arma = new System.Windows.Forms.Button();
+            this.btnArma = new System.Windows.Forms.Button();
             this.btn_armadura = new System.Windows.Forms.Button();
             this.btn_item = new System.Windows.Forms.Button();
             this.btn_municao = new System.Windows.Forms.Button();
@@ -41,36 +41,40 @@
             // 
             // title
             // 
+            this.title.AutoSize = true;
             this.title.BackColor = System.Drawing.SystemColors.Window;
             this.title.Font = new System.Drawing.Font("Verdana", 80F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.title.Location = new System.Drawing.Point(173, 29);
+            this.title.Location = new System.Drawing.Point(190, 29);
             this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(910, 140);
+            this.title.Size = new System.Drawing.Size(874, 130);
             this.title.TabIndex = 0;
             this.title.Text = "O Inicio do Fim";
             this.title.Click += new System.EventHandler(this.title_Click);
             // 
             // Subtitle
             // 
+            this.Subtitle.AutoSize = true;
             this.Subtitle.BackColor = System.Drawing.SystemColors.Window;
             this.Subtitle.Font = new System.Drawing.Font("Verdana", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Subtitle.Location = new System.Drawing.Point(295, 169);
+            this.Subtitle.Location = new System.Drawing.Point(312, 169);
             this.Subtitle.Name = "Subtitle";
-            this.Subtitle.Size = new System.Drawing.Size(631, 46);
+            this.Subtitle.Size = new System.Drawing.Size(611, 32);
             this.Subtitle.TabIndex = 1;
             this.Subtitle.Text = "Para alguns, o fim é apenas o inicio de tudo";
             this.Subtitle.Click += new System.EventHandler(this.label1_Click);
             // 
-            // btn_arma
+            // btnArma
             // 
-            this.btn_arma.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.btn_arma.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_arma.Location = new System.Drawing.Point(301, 384);
-            this.btn_arma.Name = "btn_arma";
-            this.btn_arma.Size = new System.Drawing.Size(126, 39);
-            this.btn_arma.TabIndex = 2;
-            this.btn_arma.Text = "Armas";
-            this.btn_arma.UseVisualStyleBackColor = false;
+            this.btnArma.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnArma.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnArma.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnArma.Location = new System.Drawing.Point(301, 384);
+            this.btnArma.Name = "btnArma";
+            this.btnArma.Size = new System.Drawing.Size(126, 39);
+            this.btnArma.TabIndex = 2;
+            this.btnArma.Text = "Armas";
+            this.btnArma.UseVisualStyleBackColor = false;
+            this.btnArma.Click += new System.EventHandler(this.btnArma_Click);
             // 
             // btn_armadura
             // 
@@ -138,7 +142,7 @@
             this.Controls.Add(this.btn_municao);
             this.Controls.Add(this.btn_item);
             this.Controls.Add(this.btn_armadura);
-            this.Controls.Add(this.btn_arma);
+            this.Controls.Add(this.btnArma);
             this.Controls.Add(this.Subtitle);
             this.Controls.Add(this.title);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -146,6 +150,7 @@
             this.Text = "O Inicio do Fim";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -153,7 +158,7 @@
 
         private System.Windows.Forms.Label title;
         private System.Windows.Forms.Label Subtitle;
-        private System.Windows.Forms.Button btn_arma;
+        private System.Windows.Forms.Button btnArma;
         private System.Windows.Forms.Button btn_armadura;
         private System.Windows.Forms.Button btn_item;
         private System.Windows.Forms.Button btn_municao;

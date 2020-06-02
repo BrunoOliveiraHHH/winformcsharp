@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="JanelaArma.cs">
+    <Compile Include="Armas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JanelaArma.Designer.cs">
-      <DependentUpon>JanelaArma.cs</DependentUpon>
+    <Compile Include="Armas.Designer.cs">
+      <DependentUpon>Armas.cs</DependentUpon>
     </Compile>
     <Compile Include="JanelaPrincipal.cs">
       <SubType>Form</SubType>
@@ -58,10 +58,15 @@
     <Compile Include="JanelaPrincipal.Designer.cs">
       <DependentUpon>JanelaPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="o_inicio_do_fim_v2DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>o_inicio_do_fim_v2DataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="JanelaArma.resx">
-      <DependentUpon>JanelaArma.cs</DependentUpon>
+    <EmbeddedResource Include="Armas.resx">
+      <DependentUpon>Armas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JanelaPrincipal.resx">
       <DependentUpon>JanelaPrincipal.cs</DependentUpon>
@@ -75,6 +80,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="app.config" />
+    <None Include="o_inicio_do_fim_v2DataSet2.xsc">
+      <DependentUpon>o_inicio_do_fim_v2DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="o_inicio_do_fim_v2DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>o_inicio_do_fim_v2DataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="o_inicio_do_fim_v2DataSet2.xss">
+      <DependentUpon>o_inicio_do_fim_v2DataSet2.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
