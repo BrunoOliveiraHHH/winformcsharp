@@ -26,10 +26,21 @@ namespace OiniciodofimV2
 
         private void title_Click(object sender, EventArgs e) { }
 
+        private void btnArma_Click(object sender, EventArgs e)
+        {
+            abreJanelaArma();
+        }
+
         private void playSimpleSound()
         {
-            SoundPlayer simpleSound = new SoundPlayer(@"C:\Users\PMRecife\Documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\assets\Royalty Free Music - Zombie Apocalypse - Scary Cinematic Industrial Action Background Music.mp3");
-            simpleSound.Play();
+            SoundPlayer backgroundSound = new SoundPlayer(@"C:\Users\PMRecife\Documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\assets\sound-background.wav");
+            backgroundSound.Play();
+        }
+
+        private void abreJanelaArma()
+        {
+            Armas janelaArma = new Armas();
+            janelaArma.Show();
         }
     }
 }
