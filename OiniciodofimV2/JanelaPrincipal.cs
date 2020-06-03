@@ -28,7 +28,8 @@ namespace OiniciodofimV2
 
         private void btnArma_Click(object sender, EventArgs e)
         {
-            abreJanelaArma();
+            Armas janelaArma = new Armas();
+            janelaArma.Show();
         }
 
         private void playSimpleSound()
@@ -37,10 +38,10 @@ namespace OiniciodofimV2
             backgroundSound.Play();
         }
 
-        private void abreJanelaArma()
+        private void btn_armadura_Click(object sender, EventArgs e)
         {
-            Armas janelaArma = new Armas();
-            janelaArma.Show();
+            Armaduras janelaArmaduras = new Armaduras();
+            janelaArmaduras.Show();
         }
     }
 }

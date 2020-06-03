@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Armaduras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Armaduras.Designer.cs">
+      <DependentUpon>Armaduras.cs</DependentUpon>
+    </Compile>
     <Compile Include="Armas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +64,11 @@
     <Compile Include="JanelaPrincipal.Designer.cs">
       <DependentUpon>JanelaPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="o_inicio_do_fim_v2DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>o_inicio_do_fim_v2DataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="o_inicio_do_fim_v2DataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -65,6 +76,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Armaduras.resx">
+      <DependentUpon>Armaduras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Armas.resx">
       <DependentUpon>Armas.cs</DependentUpon>
     </EmbeddedResource>
@@ -81,6 +95,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="app.config" />
+    <None Include="o_inicio_do_fim_v2DataSet.xsc">
+      <DependentUpon>o_inicio_do_fim_v2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="o_inicio_do_fim_v2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>o_inicio_do_fim_v2DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="o_inicio_do_fim_v2DataSet.xss">
+      <DependentUpon>o_inicio_do_fim_v2DataSet.xsd</DependentUpon>
+    </None>
     <None Include="o_inicio_do_fim_v2DataSet2.xsc">
       <DependentUpon>o_inicio_do_fim_v2DataSet2.xsd</DependentUpon>
     </None>
