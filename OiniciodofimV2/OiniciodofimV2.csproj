@@ -127,6 +127,12 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OiniciodofimV2Data\OiniciodofimV2Data.csproj">
+      <Project>{A6D4D584-FB4B-48E5-B8E4-B2E61C1E2805}</Project>
+      <Name>OiniciodofimV2Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

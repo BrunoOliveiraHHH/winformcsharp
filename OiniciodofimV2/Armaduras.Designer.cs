@@ -31,32 +31,29 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Armaduras));
             this.txtObservacao = new System.Windows.Forms.TextBox();
-            this.cbxMunicao = new System.Windows.Forms.ComboBox();
-            this.lblMunicao = new System.Windows.Forms.Label();
-            this.txtPeso = new System.Windows.Forms.TextBox();
-            this.txtIdArma = new System.Windows.Forms.TextBox();
+            this.cbxDurabilidade = new System.Windows.Forms.ComboBox();
+            this.lblDurabilidade = new System.Windows.Forms.Label();
+            this.txtFurtv = new System.Windows.Forms.TextBox();
+            this.txtIdArmadura = new System.Windows.Forms.TextBox();
             this.btnVoltar = new System.Windows.Forms.Button();
             this.lblIdArma = new System.Windows.Forms.Label();
-            this.txtPropriedades = new System.Windows.Forms.TextBox();
+            this.txtForca = new System.Windows.Forms.TextBox();
             this.btnExcluir = new System.Windows.Forms.Button();
-            this.txtTipoDeDano = new System.Windows.Forms.TextBox();
+            this.txtCa = new System.Windows.Forms.TextBox();
             this.BoxMenuArma = new System.Windows.Forms.GroupBox();
+            this.cbxTipoArmadura = new System.Windows.Forms.ComboBox();
             this.lblObservacao = new System.Windows.Forms.Label();
-            this.lblPropriedades = new System.Windows.Forms.Label();
-            this.lblPeso = new System.Windows.Forms.Label();
-            this.lblTipoDeDano = new System.Windows.Forms.Label();
-            this.txtDano = new System.Windows.Forms.TextBox();
-            this.lblDano = new System.Windows.Forms.Label();
+            this.lblForça = new System.Windows.Forms.Label();
+            this.lblFurtv = new System.Windows.Forms.Label();
+            this.lblCa = new System.Windows.Forms.Label();
             this.txtCusto = new System.Windows.Forms.TextBox();
             this.lblCusto = new System.Windows.Forms.Label();
+            this.lblTipo = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.lblNome = new System.Windows.Forms.Label();
             this.btnInserir = new System.Windows.Forms.Button();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.o_inicio_do_fim_v2DataSet = new OiniciodofimV2.o_inicio_do_fim_v2DataSet();
-            this.consultaarmaduradurabilidadeBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.consulta_armadura_durabilidadeTableAdapter = new OiniciodofimV2.o_inicio_do_fim_v2DataSetTableAdapters.consulta_armadura_durabilidadeTableAdapter();
             this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nomearmaduraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tipoarmaduraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -67,53 +64,57 @@
             this.pesoarmaduraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.observacaoarmaduraDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusdurabilidadeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.consultaarmaduradurabilidadeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.o_inicio_do_fim_v2DataSet = new OiniciodofimV2.o_inicio_do_fim_v2DataSet();
+            this.consulta_armadura_durabilidadeTableAdapter = new OiniciodofimV2.o_inicio_do_fim_v2DataSetTableAdapters.consulta_armadura_durabilidadeTableAdapter();
+            this.txtPeso = new System.Windows.Forms.TextBox();
+            this.lblPeso = new System.Windows.Forms.Label();
             this.BoxMenuArma.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.o_inicio_do_fim_v2DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.consultaarmaduradurabilidadeBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.o_inicio_do_fim_v2DataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // txtObservacao
             // 
-            this.txtObservacao.Location = new System.Drawing.Point(506, 92);
+            this.txtObservacao.Location = new System.Drawing.Point(506, 123);
             this.txtObservacao.Multiline = true;
             this.txtObservacao.Name = "txtObservacao";
-            this.txtObservacao.Size = new System.Drawing.Size(215, 37);
+            this.txtObservacao.Size = new System.Drawing.Size(215, 41);
             this.txtObservacao.TabIndex = 15;
             this.txtObservacao.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // cbxMunicao
+            // cbxDurabilidade
             // 
-            this.cbxMunicao.FormattingEnabled = true;
-            this.cbxMunicao.Location = new System.Drawing.Point(600, 26);
-            this.cbxMunicao.Name = "cbxMunicao";
-            this.cbxMunicao.Size = new System.Drawing.Size(121, 21);
-            this.cbxMunicao.TabIndex = 13;
-            this.cbxMunicao.SelectedIndexChanged += new System.EventHandler(this.cbxMunicao_SelectedIndexChanged);
+            this.cbxDurabilidade.FormattingEnabled = true;
+            this.cbxDurabilidade.Location = new System.Drawing.Point(506, 51);
+            this.cbxDurabilidade.Name = "cbxDurabilidade";
+            this.cbxDurabilidade.Size = new System.Drawing.Size(215, 21);
+            this.cbxDurabilidade.TabIndex = 13;
             // 
-            // lblMunicao
+            // lblDurabilidade
             // 
-            this.lblMunicao.AutoSize = true;
-            this.lblMunicao.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMunicao.Location = new System.Drawing.Point(502, 26);
-            this.lblMunicao.Name = "lblMunicao";
-            this.lblMunicao.Size = new System.Drawing.Size(91, 22);
-            this.lblMunicao.TabIndex = 12;
-            this.lblMunicao.Text = "Munição:";
+            this.lblDurabilidade.AutoSize = true;
+            this.lblDurabilidade.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDurabilidade.Location = new System.Drawing.Point(502, 26);
+            this.lblDurabilidade.Name = "lblDurabilidade";
+            this.lblDurabilidade.Size = new System.Drawing.Size(132, 22);
+            this.lblDurabilidade.TabIndex = 12;
+            this.lblDurabilidade.Text = "Durabilidade:";
             // 
-            // txtPeso
+            // txtFurtv
             // 
-            this.txtPeso.Location = new System.Drawing.Point(373, 69);
-            this.txtPeso.Name = "txtPeso";
-            this.txtPeso.Size = new System.Drawing.Size(100, 20);
-            this.txtPeso.TabIndex = 10;
+            this.txtFurtv.Location = new System.Drawing.Point(373, 64);
+            this.txtFurtv.Name = "txtFurtv";
+            this.txtFurtv.Size = new System.Drawing.Size(100, 20);
+            this.txtFurtv.TabIndex = 10;
             // 
-            // txtIdArma
+            // txtIdArmadura
             // 
-            this.txtIdArma.Location = new System.Drawing.Point(103, 27);
-            this.txtIdArma.Name = "txtIdArma";
-            this.txtIdArma.Size = new System.Drawing.Size(100, 20);
-            this.txtIdArma.TabIndex = 17;
+            this.txtIdArmadura.Location = new System.Drawing.Point(103, 27);
+            this.txtIdArmadura.Name = "txtIdArmadura";
+            this.txtIdArmadura.Size = new System.Drawing.Size(100, 20);
+            this.txtIdArmadura.TabIndex = 17;
             // 
             // btnVoltar
             // 
@@ -137,12 +138,12 @@
             this.lblIdArma.TabIndex = 16;
             this.lblIdArma.Text = "ID:";
             // 
-            // txtPropriedades
+            // txtForca
             // 
-            this.txtPropriedades.Location = new System.Drawing.Point(373, 109);
-            this.txtPropriedades.Name = "txtPropriedades";
-            this.txtPropriedades.Size = new System.Drawing.Size(100, 20);
-            this.txtPropriedades.TabIndex = 11;
+            this.txtForca.Location = new System.Drawing.Point(373, 109);
+            this.txtForca.Name = "txtForca";
+            this.txtForca.Size = new System.Drawing.Size(100, 20);
+            this.txtForca.TabIndex = 11;
             // 
             // btnExcluir
             // 
@@ -156,31 +157,33 @@
             this.btnExcluir.UseVisualStyleBackColor = false;
             this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
-            // txtTipoDeDano
+            // txtCa
             // 
-            this.txtTipoDeDano.Location = new System.Drawing.Point(373, 28);
-            this.txtTipoDeDano.Name = "txtTipoDeDano";
-            this.txtTipoDeDano.Size = new System.Drawing.Size(100, 20);
-            this.txtTipoDeDano.TabIndex = 9;
+            this.txtCa.Location = new System.Drawing.Point(373, 31);
+            this.txtCa.Name = "txtCa";
+            this.txtCa.Size = new System.Drawing.Size(100, 20);
+            this.txtCa.TabIndex = 9;
             // 
             // BoxMenuArma
             // 
-            this.BoxMenuArma.Controls.Add(this.txtIdArma);
+            this.BoxMenuArma.Controls.Add(this.txtPeso);
+            this.BoxMenuArma.Controls.Add(this.lblPeso);
+            this.BoxMenuArma.Controls.Add(this.cbxTipoArmadura);
+            this.BoxMenuArma.Controls.Add(this.txtIdArmadura);
             this.BoxMenuArma.Controls.Add(this.lblIdArma);
             this.BoxMenuArma.Controls.Add(this.txtObservacao);
             this.BoxMenuArma.Controls.Add(this.lblObservacao);
-            this.BoxMenuArma.Controls.Add(this.cbxMunicao);
-            this.BoxMenuArma.Controls.Add(this.lblMunicao);
-            this.BoxMenuArma.Controls.Add(this.txtPropriedades);
-            this.BoxMenuArma.Controls.Add(this.txtPeso);
-            this.BoxMenuArma.Controls.Add(this.txtTipoDeDano);
-            this.BoxMenuArma.Controls.Add(this.lblPropriedades);
-            this.BoxMenuArma.Controls.Add(this.lblPeso);
-            this.BoxMenuArma.Controls.Add(this.lblTipoDeDano);
-            this.BoxMenuArma.Controls.Add(this.txtDano);
-            this.BoxMenuArma.Controls.Add(this.lblDano);
+            this.BoxMenuArma.Controls.Add(this.cbxDurabilidade);
+            this.BoxMenuArma.Controls.Add(this.lblDurabilidade);
+            this.BoxMenuArma.Controls.Add(this.txtForca);
+            this.BoxMenuArma.Controls.Add(this.txtFurtv);
+            this.BoxMenuArma.Controls.Add(this.txtCa);
+            this.BoxMenuArma.Controls.Add(this.lblForça);
+            this.BoxMenuArma.Controls.Add(this.lblFurtv);
+            this.BoxMenuArma.Controls.Add(this.lblCa);
             this.BoxMenuArma.Controls.Add(this.txtCusto);
             this.BoxMenuArma.Controls.Add(this.lblCusto);
+            this.BoxMenuArma.Controls.Add(this.lblTipo);
             this.BoxMenuArma.Controls.Add(this.txtNome);
             this.BoxMenuArma.Controls.Add(this.lblNome);
             this.BoxMenuArma.Location = new System.Drawing.Point(367, 37);
@@ -189,79 +192,80 @@
             this.BoxMenuArma.TabIndex = 7;
             this.BoxMenuArma.TabStop = false;
             // 
+            // cbxTipoArmadura
+            // 
+            this.cbxTipoArmadura.FormattingEnabled = true;
+            this.cbxTipoArmadura.Location = new System.Drawing.Point(104, 102);
+            this.cbxTipoArmadura.Name = "cbxTipoArmadura";
+            this.cbxTipoArmadura.Size = new System.Drawing.Size(101, 21);
+            this.cbxTipoArmadura.TabIndex = 18;
+            // 
             // lblObservacao
             // 
             this.lblObservacao.AutoSize = true;
             this.lblObservacao.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblObservacao.Location = new System.Drawing.Point(502, 66);
+            this.lblObservacao.Location = new System.Drawing.Point(502, 86);
             this.lblObservacao.Name = "lblObservacao";
             this.lblObservacao.Size = new System.Drawing.Size(133, 22);
             this.lblObservacao.TabIndex = 14;
             this.lblObservacao.Text = "Observações:";
             // 
-            // lblPropriedades
+            // lblForça
             // 
-            this.lblPropriedades.AutoSize = true;
-            this.lblPropriedades.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPropriedades.Location = new System.Drawing.Point(231, 106);
-            this.lblPropriedades.Name = "lblPropriedades";
-            this.lblPropriedades.Size = new System.Drawing.Size(136, 22);
-            this.lblPropriedades.TabIndex = 8;
-            this.lblPropriedades.Text = "Propriedades:";
+            this.lblForça.AutoSize = true;
+            this.lblForça.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblForça.Location = new System.Drawing.Point(293, 101);
+            this.lblForça.Name = "lblForça";
+            this.lblForça.Size = new System.Drawing.Size(67, 22);
+            this.lblForça.TabIndex = 8;
+            this.lblForça.Text = "Força:";
             // 
-            // lblPeso
+            // lblFurtv
             // 
-            this.lblPeso.AutoSize = true;
-            this.lblPeso.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPeso.Location = new System.Drawing.Point(307, 66);
-            this.lblPeso.Name = "lblPeso";
-            this.lblPeso.Size = new System.Drawing.Size(60, 22);
-            this.lblPeso.TabIndex = 7;
-            this.lblPeso.Text = "Peso:";
+            this.lblFurtv.AutoSize = true;
+            this.lblFurtv.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFurtv.Location = new System.Drawing.Point(241, 64);
+            this.lblFurtv.Name = "lblFurtv";
+            this.lblFurtv.Size = new System.Drawing.Size(119, 22);
+            this.lblFurtv.TabIndex = 7;
+            this.lblFurtv.Text = "Furtividade:";
             // 
-            // lblTipoDeDano
+            // lblCa
             // 
-            this.lblTipoDeDano.AutoSize = true;
-            this.lblTipoDeDano.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipoDeDano.Location = new System.Drawing.Point(230, 26);
-            this.lblTipoDeDano.Name = "lblTipoDeDano";
-            this.lblTipoDeDano.Size = new System.Drawing.Size(137, 22);
-            this.lblTipoDeDano.TabIndex = 6;
-            this.lblTipoDeDano.Text = "Tipo de Dano:";
-            // 
-            // txtDano
-            // 
-            this.txtDano.Location = new System.Drawing.Point(104, 144);
-            this.txtDano.Name = "txtDano";
-            this.txtDano.Size = new System.Drawing.Size(100, 20);
-            this.txtDano.TabIndex = 5;
-            // 
-            // lblDano
-            // 
-            this.lblDano.AutoSize = true;
-            this.lblDano.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDano.Location = new System.Drawing.Point(30, 142);
-            this.lblDano.Name = "lblDano";
-            this.lblDano.Size = new System.Drawing.Size(65, 22);
-            this.lblDano.TabIndex = 4;
-            this.lblDano.Text = "Dano:";
+            this.lblCa.AutoSize = true;
+            this.lblCa.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCa.Location = new System.Drawing.Point(317, 28);
+            this.lblCa.Name = "lblCa";
+            this.lblCa.Size = new System.Drawing.Size(43, 22);
+            this.lblCa.TabIndex = 6;
+            this.lblCa.Text = "CA:";
             // 
             // txtCusto
             // 
-            this.txtCusto.Location = new System.Drawing.Point(104, 106);
+            this.txtCusto.Location = new System.Drawing.Point(104, 144);
             this.txtCusto.Name = "txtCusto";
             this.txtCusto.Size = new System.Drawing.Size(100, 20);
-            this.txtCusto.TabIndex = 3;
+            this.txtCusto.TabIndex = 5;
             // 
             // lblCusto
             // 
             this.lblCusto.AutoSize = true;
             this.lblCusto.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCusto.Location = new System.Drawing.Point(30, 106);
+            this.lblCusto.Location = new System.Drawing.Point(26, 140);
             this.lblCusto.Name = "lblCusto";
-            this.lblCusto.Size = new System.Drawing.Size(68, 22);
-            this.lblCusto.TabIndex = 2;
-            this.lblCusto.Text = "Preço:";
+            this.lblCusto.Size = new System.Drawing.Size(69, 22);
+            this.lblCusto.TabIndex = 4;
+            this.lblCusto.Text = "Custo:";
+            // 
+            // lblTipo
+            // 
+            this.lblTipo.AutoSize = true;
+            this.lblTipo.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTipo.Location = new System.Drawing.Point(39, 101);
+            this.lblTipo.Name = "lblTipo";
+            this.lblTipo.Size = new System.Drawing.Size(56, 22);
+            this.lblTipo.TabIndex = 2;
+            this.lblTipo.Text = "Tipo:";
             // 
             // txtNome
             // 
@@ -274,7 +278,7 @@
             // 
             this.lblNome.AutoSize = true;
             this.lblNome.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNome.Location = new System.Drawing.Point(30, 63);
+            this.lblNome.Location = new System.Drawing.Point(24, 64);
             this.lblNome.Name = "lblNome";
             this.lblNome.Size = new System.Drawing.Size(71, 22);
             this.lblNome.TabIndex = 0;
@@ -333,20 +337,6 @@
             this.dataGridView1.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Gray;
             this.dataGridView1.Size = new System.Drawing.Size(1049, 357);
             this.dataGridView1.TabIndex = 10;
-            // 
-            // o_inicio_do_fim_v2DataSet
-            // 
-            this.o_inicio_do_fim_v2DataSet.DataSetName = "o_inicio_do_fim_v2DataSet";
-            this.o_inicio_do_fim_v2DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // consultaarmaduradurabilidadeBindingSource
-            // 
-            this.consultaarmaduradurabilidadeBindingSource.DataMember = "consulta_armadura_durabilidade";
-            this.consultaarmaduradurabilidadeBindingSource.DataSource = this.o_inicio_do_fim_v2DataSet;
-            // 
-            // consulta_armadura_durabilidadeTableAdapter
-            // 
-            this.consulta_armadura_durabilidadeTableAdapter.ClearBeforeFill = true;
             // 
             // iDDataGridViewTextBoxColumn
             // 
@@ -418,12 +408,43 @@
             this.statusdurabilidadeDataGridViewTextBoxColumn.Name = "statusdurabilidadeDataGridViewTextBoxColumn";
             this.statusdurabilidadeDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // consultaarmaduradurabilidadeBindingSource
+            // 
+            this.consultaarmaduradurabilidadeBindingSource.DataMember = "consulta_armadura_durabilidade";
+            this.consultaarmaduradurabilidadeBindingSource.DataSource = this.o_inicio_do_fim_v2DataSet;
+            // 
+            // o_inicio_do_fim_v2DataSet
+            // 
+            this.o_inicio_do_fim_v2DataSet.DataSetName = "o_inicio_do_fim_v2DataSet";
+            this.o_inicio_do_fim_v2DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // consulta_armadura_durabilidadeTableAdapter
+            // 
+            this.consulta_armadura_durabilidadeTableAdapter.ClearBeforeFill = true;
+            // 
+            // txtPeso
+            // 
+            this.txtPeso.Location = new System.Drawing.Point(373, 145);
+            this.txtPeso.Name = "txtPeso";
+            this.txtPeso.Size = new System.Drawing.Size(100, 20);
+            this.txtPeso.TabIndex = 20;
+            // 
+            // lblPeso
+            // 
+            this.lblPeso.AutoSize = true;
+            this.lblPeso.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPeso.Location = new System.Drawing.Point(300, 140);
+            this.lblPeso.Name = "lblPeso";
+            this.lblPeso.Size = new System.Drawing.Size(60, 22);
+            this.lblPeso.TabIndex = 19;
+            this.lblPeso.Text = "Peso:";
+            // 
             // Armaduras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1450, 756);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.BoxMenuArma);
@@ -437,8 +458,8 @@
             this.BoxMenuArma.ResumeLayout(false);
             this.BoxMenuArma.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.o_inicio_do_fim_v2DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.consultaarmaduradurabilidadeBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.o_inicio_do_fim_v2DataSet)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -446,24 +467,23 @@
         #endregion
 
         private System.Windows.Forms.TextBox txtObservacao;
-        private System.Windows.Forms.ComboBox cbxMunicao;
-        private System.Windows.Forms.Label lblMunicao;
-        private System.Windows.Forms.TextBox txtPeso;
-        private System.Windows.Forms.TextBox txtIdArma;
+        private System.Windows.Forms.ComboBox cbxDurabilidade;
+        private System.Windows.Forms.Label lblDurabilidade;
+        private System.Windows.Forms.TextBox txtFurtv;
+        private System.Windows.Forms.TextBox txtIdArmadura;
         private System.Windows.Forms.Button btnVoltar;
         private System.Windows.Forms.Label lblIdArma;
-        private System.Windows.Forms.TextBox txtPropriedades;
+        private System.Windows.Forms.TextBox txtForca;
         private System.Windows.Forms.Button btnExcluir;
-        private System.Windows.Forms.TextBox txtTipoDeDano;
+        private System.Windows.Forms.TextBox txtCa;
         private System.Windows.Forms.GroupBox BoxMenuArma;
         private System.Windows.Forms.Label lblObservacao;
-        private System.Windows.Forms.Label lblPropriedades;
-        private System.Windows.Forms.Label lblPeso;
-        private System.Windows.Forms.Label lblTipoDeDano;
-        private System.Windows.Forms.TextBox txtDano;
-        private System.Windows.Forms.Label lblDano;
+        private System.Windows.Forms.Label lblForça;
+        private System.Windows.Forms.Label lblFurtv;
+        private System.Windows.Forms.Label lblCa;
         private System.Windows.Forms.TextBox txtCusto;
         private System.Windows.Forms.Label lblCusto;
+        private System.Windows.Forms.Label lblTipo;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Button btnInserir;
@@ -482,5 +502,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn pesoarmaduraDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn observacaoarmaduraDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn statusdurabilidadeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.ComboBox cbxTipoArmadura;
+        private System.Windows.Forms.TextBox txtPeso;
+        private System.Windows.Forms.Label lblPeso;
     }
 }

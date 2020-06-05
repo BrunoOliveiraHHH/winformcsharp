@@ -306,13 +306,13 @@
             this.observacaomunicaoDataGridViewTextBoxColumn,
             this.observacaoarmaDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.consultaarmamunicaoBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(45, 275);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 256);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dataGridView1.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGridView1.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Gray;
-            this.dataGridView1.Size = new System.Drawing.Size(1347, 354);
+            this.dataGridView1.Size = new System.Drawing.Size(1346, 379);
             this.dataGridView1.TabIndex = 4;
             // 
             // iDDataGridViewTextBoxColumn
@@ -449,7 +449,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1444, 686);
+            this.ClientSize = new System.Drawing.Size(1370, 686);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.dataGridView1);
