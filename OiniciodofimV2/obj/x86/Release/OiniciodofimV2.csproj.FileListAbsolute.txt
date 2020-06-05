@@ -1,0 +1,13 @@
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\bin\Release\OiniciodofimV2.exe.config
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\bin\Release\OiniciodofimV2.exe
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\bin\Release\OiniciodofimV2.pdb
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Release\OiniciodofimV2.Armas.resources
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Release\OiniciodofimV2.Window.resources
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Release\OiniciodofimV2.Properties.Resources.resources
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Release\OiniciodofimV2.csproj.GenerateResource.Cache
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Release\OiniciodofimV2.exe
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Release\OiniciodofimV2.pdb
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Release\OiniciodofimV2.csprojResolveAssemblyReference.cache
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Release\OiniciodofimV2.Armaduras.resources
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\bin\Release\OiniciodofimV2Data.dll
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\bin\Release\OiniciodofimV2Data.pdb

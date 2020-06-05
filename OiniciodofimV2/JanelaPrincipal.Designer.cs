@@ -86,6 +86,7 @@
             this.btn_armadura.TabIndex = 3;
             this.btn_armadura.Text = "Armaduras";
             this.btn_armadura.UseVisualStyleBackColor = false;
+            this.btn_armadura.Click += new System.EventHandler(this.btn_armadura_Click);
             // 
             // btn_item
             // 
@@ -136,7 +137,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1277, 723);
+            this.ClientSize = new System.Drawing.Size(1321, 727);
             this.Controls.Add(this.btn_veiculo);
             this.Controls.Add(this.btn_monstro);
             this.Controls.Add(this.btn_municao);

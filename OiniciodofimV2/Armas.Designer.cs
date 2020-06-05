@@ -288,6 +288,8 @@
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AllowUserToOrderColumns = true;
             this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.iDDataGridViewTextBoxColumn,
@@ -304,10 +306,13 @@
             this.observacaomunicaoDataGridViewTextBoxColumn,
             this.observacaoarmaDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.consultaarmamunicaoBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 267);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 256);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(1278, 354);
+            this.dataGridView1.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dataGridView1.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridView1.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.Gray;
+            this.dataGridView1.Size = new System.Drawing.Size(1346, 379);
             this.dataGridView1.TabIndex = 4;
             // 
             // iDDataGridViewTextBoxColumn
@@ -439,12 +444,12 @@
             this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
-            // JanelaArma
+            // Armas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1302, 648);
+            this.ClientSize = new System.Drawing.Size(1370, 686);
             this.Controls.Add(this.btnVoltar);
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.dataGridView1);
@@ -452,7 +457,7 @@
             this.Controls.Add(this.btnInserir);
             this.Controls.Add(this.BoxMenuArma);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "JanelaArma";
+            this.Name = "Armas";
             this.Text = "Armas";
             this.Load += new System.EventHandler(this.JanelaArma_Load);
             this.BoxMenuArma.ResumeLayout(false);
