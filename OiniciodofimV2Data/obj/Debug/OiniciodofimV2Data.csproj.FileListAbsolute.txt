@@ -1,0 +1,4 @@
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2Data\bin\Debug\OiniciodofimV2Data.dll
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2Data\bin\Debug\OiniciodofimV2Data.pdb
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2Data\obj\Debug\OiniciodofimV2Data.dll
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2Data\obj\Debug\OiniciodofimV2Data.pdb

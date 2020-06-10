@@ -43,5 +43,11 @@ namespace OiniciodofimV2
             Armaduras janelaArmaduras = new Armaduras();
             janelaArmaduras.Show();
         }
+
+        private void btn_item_Click(object sender, EventArgs e)
+        {
+            Item janelaItem = new Item();
+            janelaItem.Show();
+        }
     }
 }
