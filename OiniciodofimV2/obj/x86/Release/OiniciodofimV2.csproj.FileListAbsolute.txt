@@ -11,3 +11,4 @@ C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\Oiniciodo
 C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Release\OiniciodofimV2.Armaduras.resources
 C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\bin\Release\OiniciodofimV2Data.dll
 C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\bin\Release\OiniciodofimV2Data.pdb
+C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Release\OiniciodofimV2.Item.resources

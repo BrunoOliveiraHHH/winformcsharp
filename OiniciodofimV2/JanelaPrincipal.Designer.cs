@@ -98,6 +98,7 @@
             this.btn_item.TabIndex = 4;
             this.btn_item.Text = "Itens";
             this.btn_item.UseVisualStyleBackColor = false;
+            this.btn_item.Click += new System.EventHandler(this.btn_item_Click);
             // 
             // btn_municao
             // 
