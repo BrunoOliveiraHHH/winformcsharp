@@ -70,6 +70,12 @@
     <Compile Include="JanelaPrincipal.Designer.cs">
       <DependentUpon>JanelaPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Municao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Municao.Designer.cs">
+      <DependentUpon>Municao.cs</DependentUpon>
+    </Compile>
     <Compile Include="o_inicio_do_fim_v2DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -98,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="JanelaPrincipal.resx">
       <DependentUpon>JanelaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Municao.resx">
+      <DependentUpon>Municao.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -156,6 +165,10 @@
     <ProjectReference Include="..\OiniciodofimV2Data\OiniciodofimV2Data.csproj">
       <Project>{A6D4D584-FB4B-48E5-B8E4-B2E61C1E2805}</Project>
       <Name>OiniciodofimV2Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OiniciodofimV2Serviço\OiniciodofimV2Servico.csproj">
+      <Project>{32571C3B-8632-4728-B2C9-DB0D02D6C1D0}</Project>
+      <Name>OiniciodofimV2Servico</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

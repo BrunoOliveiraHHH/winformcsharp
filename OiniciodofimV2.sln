@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OiniciodofimV2", "Oiniciodo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OiniciodofimV2Data", "OiniciodofimV2Data\OiniciodofimV2Data.csproj", "{A6D4D584-FB4B-48E5-B8E4-B2E61C1E2805}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OiniciodofimV2Servico", "OiniciodofimV2Serviço\OiniciodofimV2Servico.csproj", "{32571C3B-8632-4728-B2C9-DB0D02D6C1D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{A6D4D584-FB4B-48E5-B8E4-B2E61C1E2805}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A6D4D584-FB4B-48E5-B8E4-B2E61C1E2805}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A6D4D584-FB4B-48E5-B8E4-B2E61C1E2805}.Release|x86.ActiveCfg = Release|Any CPU
+		{32571C3B-8632-4728-B2C9-DB0D02D6C1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32571C3B-8632-4728-B2C9-DB0D02D6C1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32571C3B-8632-4728-B2C9-DB0D02D6C1D0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{32571C3B-8632-4728-B2C9-DB0D02D6C1D0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{32571C3B-8632-4728-B2C9-DB0D02D6C1D0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{32571C3B-8632-4728-B2C9-DB0D02D6C1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32571C3B-8632-4728-B2C9-DB0D02D6C1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32571C3B-8632-4728-B2C9-DB0D02D6C1D0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{32571C3B-8632-4728-B2C9-DB0D02D6C1D0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{32571C3B-8632-4728-B2C9-DB0D02D6C1D0}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
