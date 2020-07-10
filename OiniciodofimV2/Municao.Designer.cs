@@ -44,7 +44,7 @@
             this.lblIdArma = new System.Windows.Forms.Label();
             this.txtObservacao = new System.Windows.Forms.TextBox();
             this.txtDano = new System.Windows.Forms.TextBox();
-            this.lblDano = new System.Windows.Forms.Label();
+            this.lblCalibre = new System.Windows.Forms.Label();
             this.txtCusto = new System.Windows.Forms.TextBox();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.BoxMenuArma = new System.Windows.Forms.GroupBox();
@@ -189,15 +189,15 @@
             this.txtDano.Size = new System.Drawing.Size(100, 20);
             this.txtDano.TabIndex = 5;
             // 
-            // lblDano
+            // lblCalibre
             // 
-            this.lblDano.AutoSize = true;
-            this.lblDano.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDano.Location = new System.Drawing.Point(30, 142);
-            this.lblDano.Name = "lblDano";
-            this.lblDano.Size = new System.Drawing.Size(65, 22);
-            this.lblDano.TabIndex = 4;
-            this.lblDano.Text = "Dano:";
+            this.lblCalibre.AutoSize = true;
+            this.lblCalibre.Font = new System.Drawing.Font("Verdana", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCalibre.Location = new System.Drawing.Point(30, 142);
+            this.lblCalibre.Name = "lblCalibre";
+            this.lblCalibre.Size = new System.Drawing.Size(65, 22);
+            this.lblCalibre.TabIndex = 4;
+            this.lblCalibre.Text = "Dano:";
             // 
             // txtCusto
             // 
@@ -232,7 +232,7 @@
             this.BoxMenuArma.Controls.Add(this.lblPeso);
             this.BoxMenuArma.Controls.Add(this.lblTipoDeDano);
             this.BoxMenuArma.Controls.Add(this.txtDano);
-            this.BoxMenuArma.Controls.Add(this.lblDano);
+            this.BoxMenuArma.Controls.Add(this.lblCalibre);
             this.BoxMenuArma.Controls.Add(this.txtCusto);
             this.BoxMenuArma.Controls.Add(this.lblCusto);
             this.BoxMenuArma.Controls.Add(this.txtNome);
@@ -318,7 +318,7 @@
         private System.Windows.Forms.Label lblIdArma;
         private System.Windows.Forms.TextBox txtObservacao;
         private System.Windows.Forms.TextBox txtDano;
-        private System.Windows.Forms.Label lblDano;
+        private System.Windows.Forms.Label lblCalibre;
         private System.Windows.Forms.TextBox txtCusto;
         private System.Windows.Forms.Button btnExcluir;
         private System.Windows.Forms.GroupBox BoxMenuArma;
