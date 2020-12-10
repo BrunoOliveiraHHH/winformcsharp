@@ -7,11 +7,14 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace OiniciodofimV2
 {
     public partial class Window : Form
     {
+        private static string value = ConfigurationManager.AppSettings["musicaFundo"];
+
         public Window()
         {
             InitializeComponent();
@@ -30,7 +33,8 @@ namespace OiniciodofimV2
 
         private void playSimpleSound()
         {
-            SoundPlayer backgroundSound = new SoundPlayer(@"C:\Users\PMRecife\Documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\assets\sound-background.wav");
+            
+            SoundPlayer backgroundSound = new SoundPlayer(value);
             backgroundSound.Play();
         }
 
@@ -44,6 +48,11 @@ namespace OiniciodofimV2
         {
             Item janelaItem = new Item();
             janelaItem.Show();
+        }
+
+        private void btnFechar_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

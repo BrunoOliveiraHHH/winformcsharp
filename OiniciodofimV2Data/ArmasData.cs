@@ -6,12 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Data.SqlClient;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace OiniciodofimV2Data
 {
     public class ArmasData
     {
-        SqlConnection con = new SqlConnection(@"Data Source=NOTE-1322;Initial Catalog=o_inicio_do_fim_v2;Persist Security Info=True;User ID=dev_user;Password=devUser@450");
+        static string connectionString = ConfigurationManager.ConnectionStrings["OiniciodofimV2.Properties.Settings.o_inicio_do_fim_v2ConnectionString"].ConnectionString; 
+        SqlConnection con = new SqlConnection(connectionString);
 
         public ArmasData() { }
 

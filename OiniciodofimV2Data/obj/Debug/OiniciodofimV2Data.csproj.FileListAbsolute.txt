@@ -2,3 +2,8 @@ C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\Oiniciodo
 C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2Data\bin\Debug\OiniciodofimV2Data.pdb
 C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2Data\obj\Debug\OiniciodofimV2Data.dll
 C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2Data\obj\Debug\OiniciodofimV2Data.pdb
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2Data\bin\Debug\OiniciodofimV2Data.dll
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2Data\bin\Debug\OiniciodofimV2Data.pdb
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2Data\obj\Debug\OiniciodofimV2Data.csprojResolveAssemblyReference.cache
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2Data\obj\Debug\OiniciodofimV2Data.dll
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2Data\obj\Debug\OiniciodofimV2Data.pdb

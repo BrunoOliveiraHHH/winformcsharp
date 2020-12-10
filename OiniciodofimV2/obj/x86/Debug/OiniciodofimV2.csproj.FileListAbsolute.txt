@@ -15,3 +15,14 @@ C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\Oiniciodo
 C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\bin\Debug\OiniciodofimV2.exe.config
 C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.exe
 C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.pdb
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\bin\Debug\OiniciodofimV2.exe
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\bin\Debug\OiniciodofimV2.pdb
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\bin\Debug\OiniciodofimV2Data.dll
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\bin\Debug\OiniciodofimV2Data.pdb
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.csprojResolveAssemblyReference.cache
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.Armaduras.resources
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.Armas.resources
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.Item.resources
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.Window.resources
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.Properties.Resources.resources
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.csproj.GenerateResource.Cache
