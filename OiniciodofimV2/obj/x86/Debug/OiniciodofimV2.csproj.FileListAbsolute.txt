@@ -12,3 +12,6 @@ C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\Oiniciodo
 C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.csproj.GenerateResource.Cache
 C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.exe
 C:\Users\PMRecife\documents\visual studio 2010\Projects\OiniciodofimV2\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.pdb
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\bin\Debug\OiniciodofimV2.exe.config
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.exe
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2\obj\x86\Debug\OiniciodofimV2.pdb

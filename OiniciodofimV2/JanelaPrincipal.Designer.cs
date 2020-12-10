@@ -49,7 +49,6 @@
             this.title.Size = new System.Drawing.Size(874, 130);
             this.title.TabIndex = 0;
             this.title.Text = "O Inicio do Fim";
-            this.title.Click += new System.EventHandler(this.title_Click);
             // 
             // Subtitle
             // 
@@ -61,7 +60,6 @@
             this.Subtitle.Size = new System.Drawing.Size(611, 32);
             this.Subtitle.TabIndex = 1;
             this.Subtitle.Text = "Para alguns, o fim é apenas o inicio de tudo";
-            this.Subtitle.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnArma
             // 

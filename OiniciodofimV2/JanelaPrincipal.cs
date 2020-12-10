@@ -22,10 +22,6 @@ namespace OiniciodofimV2
             playSimpleSound();
         }
 
-        private void label1_Click(object sender, EventArgs e) { }
-
-        private void title_Click(object sender, EventArgs e) { }
-
         private void btnArma_Click(object sender, EventArgs e)
         {
             Armas janelaArma = new Armas();

@@ -1,0 +1,4 @@
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2Models\bin\Debug\OiniciodofimV2Models.dll
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2Models\bin\Debug\OiniciodofimV2Models.pdb
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2Models\obj\Debug\OiniciodofimV2Models.dll
+C:\Users\bruno.d.oliveira\Desktop\MyProjects\winformcsharp\OiniciodofimV2Models\obj\Debug\OiniciodofimV2Models.pdb
